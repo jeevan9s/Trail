@@ -1,0 +1,46 @@
+#title_1 {
+    text-align: center;
+    margin-top: 32vh;
+    margin-left: 26vh;
+    font-size: 15vh;
+    font-family: 'Averia Serif Libre';
+    font-weight: lighter;
+    
+}
+
+body {
+    background-image: url(background.jpg);
+}
+
+.navBar {
+    text-align: center;
+    list-style-type: none;
+}
+
+.navBar li {
+    margin-bottom: 1.75vh; 
+    font-family: 'Averia Serif Libre';
+}
+
+#submit_name {
+    align-items: center;
+    background: none;
+    border: none;
+    color: inherit;
+    font-family: 'Averia Serif Libre';
+    font-size: 15vh;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s;
+    outline: none;
+}
+
+#submit_name:hover {
+    color: rgb(8, 82, 30);}
+
+.btn_container {
+    text-align: center;
+    margin-top: -44vh;
+    margin-left: -40vh;
+}
+

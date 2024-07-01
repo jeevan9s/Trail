@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trail Submission Page</title>
+    <link href="submissions.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Averia Serif Libre' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="icon.png"> 
+</head>
+
+<body>
+    <h1 class="title">trail submission</h1>
+
+    <ul class="navBar">
+        <li><a href="index.html">homepage</a></li>
+        <li><a href="second.html">resources & tools</a></li>
+        <li><a href="submissions.html">trail submission</a></li>
+        <li><a href="trails.html">community trails</a></li>
+    </ul>
+
+    <form id="submissionForm">
+        <div class="sec1">
+            <label class="label" for="username">Name: </label>
+            <input type="text" id="username" minlength="2" maxlength="14" placeholder="Enter your first and/or last name." required>
+        </div>
+        <div class="sec2">
+            <label class="label2" for="your_trail">Your Trail: </label>
+            <textarea id="your_trail" minlength="1" maxlength="200" placeholder="Write about your programming progress." required></textarea>
+            <div class="btn">
+                <input id="submit_button" type="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+
+    <script>
+        document.getElementById("submissionForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Get form values
+            var username = document.getElementById("username").value;
+            var yourTrail = document.getElementById("your_trail").value;
+
+            // Store form values in localStorage
+            localStorage.setItem("submittedName", username);
+            localStorage.setItem("submittedTrail", yourTrail);
+
+            // Redirect to index.html or handle navigation
+            window.location.href = "index.html"; // Redirect to index.html after submission
+        });
+    </script>
+</body>
+</html>

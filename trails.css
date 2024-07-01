@@ -1,0 +1,52 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.title1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #333; /* Dark gray color for title */
+}
+
+.submission-details {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff; /* White background for container */
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#submitted_name {
+    font-size: 1.5rem;
+    color: #333; /* Dark gray color */
+    margin-bottom: 10px;
+}
+
+#submitted_trail {
+    color: #666; /* Medium gray color */
+    margin-top: 10px;
+}
+
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0056b3; /* Visited link color */
+}

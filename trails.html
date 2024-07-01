@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="trails.css" rel="stylesheet">
+    <title>Community Trails</title>
+</head>
+<body>
+    <h1 class="title1">Community Trails</h1>
+
+    <div id="submissionResults" class="submission-details">
+        <h2 id="submitted_name">Submitted Name</h2>
+        <p>Your trail:</p>
+        <p id="submitted_trail">Submitted Trail</p>
+        <p><a href="submissions.html">Go back</a> to submit another trail.</p>
+    </div>
+
+    <script>
+        
+        var submittedName = localStorage.getItem("submittedName");
+        var submittedTrail = localStorage.getItem("submittedTrail");
+        if (submittedName && submittedTrail) {
+            document.getElementById("submitted_name").textContent = submittedName;
+            document.getElementById("submitted_trail").textContent = submittedTrail;
+            document.getElementById("submissionResults").style.display = "block";
+        }
+    </script>
+</body>
+</html>

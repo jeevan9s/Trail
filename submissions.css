@@ -1,0 +1,107 @@
+h1 {
+    text-align: center;
+    margin-top: 6vh;
+    font-family: 'Averia Serif Libre';
+}
+
+.navBar{
+    text-align: center;
+    list-style-type: none;
+}
+.navBar li{
+    align-items: baseline; 
+    display: inline-block;
+    margin-right: 2.5vh;
+    font-family: 'Averia Serif Libre';
+}
+
+#username {
+    width: 24vh;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Averia Serif Libre', serif;
+    transition: border 0.2s ease-in-out; /* Transition for border only */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+#username:hover {
+    border: 2px solid rgb(12, 61, 12); /* Border applied on hover */
+}
+
+
+
+#your_trail {
+    text-align: start;
+    resize: vertical;
+    width: 45vh;
+    height: 30vh;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: 'Averia Serif Libre';
+    transition: border 0.2s ease-in-out; /* Transition for border only */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+
+#your_trail:hover {
+    border: 2px solid rgb(12, 61, 12);
+}
+
+.label {
+    display: block; 
+            margin-bottom: 3vh; 
+            font-weight: bold; 
+            font-family: 'Averia Serif Libre';
+            font-size: large;
+
+}
+
+::placeholder{
+    font-family: 'Averia Serif Libre';
+
+}
+
+.label2 {
+    display: block; 
+            margin-bottom: 3vh; 
+            font-weight: bold; 
+            font-family: 'Averia Serif Libre';
+            font-size: large;
+}
+
+.label2::placeholder {
+    font-family: 'Averia Serif Libre';
+    }
+    
+
+.sec2 {
+    text-align: center;
+    margin-top: 12vh;
+}
+
+.sec1 {
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 1vh;
+}
+#submit_button {
+  background-color: rgb(22, 22, 22); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.85;
+  transition: 0.3s;
+}
+
+#submit_button:hover {opacity: 1;
+    background-color: rgb(15, 112, 12);
+}

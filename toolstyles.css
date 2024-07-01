@@ -1,0 +1,114 @@
+h1 {
+    text-align: center;
+    margin-top: 6vh;
+    font-family: 'Averia Serif Libre';
+}
+
+.sect1 {
+    font-family: 'Averia Serif Libre';
+    font-weight: lighter;
+    margin-top: 15vh;
+    margin-left: -75vh;
+    text-align: center;
+
+}
+
+.sect2 {
+    font-family: 'Averia Serif Libre';
+    font-weight: lighter;
+    margin-left: 75vh;
+    margin-top: -18.75vh;
+    text-align: center;
+}
+
+.sect3 {
+    font-family: 'Averia Serif Libre';
+    font-weight: lighter;
+    margin-top: 25vh;
+    margin-left: -75vh;
+    text-align: center;
+}
+
+.sect4 {
+    font-family: 'Averia Serif Libre';
+    font-weight: lighter;
+    margin-left: 75vh;
+    margin-top: -10vh;
+    text-align: center;   
+}
+
+.navBar{
+    text-align: center;
+    list-style-type: none;
+}
+.navBar li{
+    align-items: baseline; 
+    display: inline-block;
+    margin-right: 2.5vh;
+    font-family: 'Averia Serif Libre';
+}
+
+.p1 {
+    text-align: center;
+    font-family: 'Averia Serif Libre';
+    margin-left: -75vh;
+
+}
+
+.p2 {
+    text-align: center;
+    font-family: 'Averia Serif Libre';
+    margin-right: -75vh;
+}
+
+#courses {
+    text-align: center;
+    list-style-type: none;
+    margin-left: -77vh;
+}
+
+#courses li {
+    font-family: 'Averia Serif Libre';
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: .88vh;
+}
+
+#certifs {
+    text-align: center;
+    list-style-type: none;
+}
+
+#certifs li {
+    font-family: 'Averia Serif Libre';
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: .88vh;
+    margin-right: -74vh;
+}
+
+#docs {
+    text-align: center;
+    list-style-type: none;
+    margin-left: -77vh;
+}
+
+#docs li {
+    font-family: 'Averia Serif Libre';
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: .88vh;
+}
+
+#tools {
+    text-align: center;
+    list-style-type: none;
+}
+
+#tools li {
+    font-family: 'Averia Serif Libre';
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: .88vh;
+    margin-right: -74vh;
+}
